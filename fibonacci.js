@@ -1,4 +1,4 @@
-var result = fibonacci(100);
+var result = fibonacci(1000);
 process.send({type: 'result', fibonacci: result });
 
 
